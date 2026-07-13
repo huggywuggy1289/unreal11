@@ -4,6 +4,7 @@
 // 1 int, char, float, bool
 
 // 2
+/*
 int main() {
 	int score;
 	const int MaxScore = 100;
@@ -14,3 +15,4 @@ int main() {
 
 	return 0;
 }
+*/

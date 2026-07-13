@@ -3,6 +3,7 @@
 
 using namespace std;
 
+/*
 int main() 
 {
 	int age = 23;
@@ -24,3 +25,4 @@ int main()
 	isAlive = false; // 값이 덮어씌워짐. 기존 공간 재사용 (덮어쓰기)
 	cout << "isAlive? : " << (isAlive ? "Yeah~" : "No...") << endl;
 }
+*/
