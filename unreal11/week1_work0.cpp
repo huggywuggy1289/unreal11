@@ -3,6 +3,7 @@
 
 using namespace std;
 
+/*
 int main() {
 	string name;
 	int age;
@@ -26,3 +27,4 @@ int main() {
 
 	return 0;
 }
+*/
