@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;// = std::cout
 
+/*
 int main() {
 
 	// 출력 : cout로 "hello world!" 출력하기
@@ -19,3 +20,4 @@ int main() {
 
 	return 0;
 }
+*/
