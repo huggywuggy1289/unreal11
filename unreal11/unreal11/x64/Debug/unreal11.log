@@ -1,5 +1,7 @@
-﻿  week2_work6-1.cpp
+﻿  week2_work1.cpp
+C:\Users\user\source\repos\huggywuggy1289\unreal11\unreal11\week2_work1.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\source\repos\huggywuggy1289\unreal11\unreal11\week2_work1.cpp(8,18): error C2001: newline in constant
+C:\Users\user\source\repos\huggywuggy1289\unreal11\unreal11\week2_work1.cpp(9,5): error C2143: syntax error: missing ';' before 'return'
+  week2_work6-1.cpp
 C:\Users\user\source\repos\huggywuggy1289\unreal11\unreal11\week2_work6-1.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  week2_work6.cpp
   Generating Code...
-  unreal11.vcxproj -> C:\Users\user\source\repos\huggywuggy1289\unreal11\unreal11\x64\Debug\unreal11.exe
