@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+/*
 int factorial(int n) {
 
 	// 스택오버플로우 방지
@@ -21,3 +22,4 @@ int main() {
 
 	return 0;
 }
+*/
