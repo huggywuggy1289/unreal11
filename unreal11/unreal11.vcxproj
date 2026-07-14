@@ -33,6 +33,7 @@
     <ClCompile Include="week2_work3.cpp" />
     <ClCompile Include="week2_work4.cpp" />
     <ClCompile Include="week2_work5.cpp" />
+    <ClCompile Include="week2_work6-1.cpp" />
     <ClCompile Include="week2_work6.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

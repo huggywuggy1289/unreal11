@@ -1,18 +1,15 @@
 #include <iostream>
 using namespace std;
 
-/*
 int factorial(int n) {
 
-	int k = 1;
-	for (int i = n; i > 0; i--) {
-		k *= i;
+	// 스택오버플로우 방지
+	if (n <= 1) { // 1이면 재귀안함
+		return 1;
 	}
-	return k;
+	return n * factorial(n - 1);
 }
-
 int main() {
-
 	int a;
 
 	cout << "insert number: " << endl;
@@ -24,4 +21,3 @@ int main() {
 
 	return 0;
 }
-*/
