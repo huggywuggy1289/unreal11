@@ -1,10 +1,2 @@
-﻿  realTest.cpp
-  test.cpp
-  test1.cpp
-  week1_work0.cpp
-  week1_work1.cpp
-  week1_work2.cpp
-C:\Users\user\source\repos\huggywuggy1289\unreal11\unreal11\week1_work2.cpp(7,12): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\user\source\repos\huggywuggy1289\unreal11\unreal11\week1_work2.cpp(13,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  Generating Code...
+﻿  week1_work2.cpp
   unreal11.vcxproj -> C:\Users\user\source\repos\huggywuggy1289\unreal11\unreal11\x64\Debug\unreal11.exe
