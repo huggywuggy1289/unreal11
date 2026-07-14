@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+/*
 int main() {
 	double c, f; // 섭씨, 화씨
 
@@ -14,3 +15,4 @@ int main() {
 
 
 }
+*/
