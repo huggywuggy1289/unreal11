@@ -30,5 +30,8 @@
     <ClCompile Include="week1_work1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="week1_work2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

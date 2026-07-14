@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 
 using namespace std;
@@ -10,19 +10,19 @@ int main() {
 	int height;
 	bool isGamingExperience;
 
-	cout << "ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ì´ë¦„ì„ ìž…ë ¥í•˜ì„¸ìš”: ";
 	cin >> name;
-	cout << "³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ë‚˜ì´ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ";
 	cin >> age;
-	cout << "Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "í‚¤ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ";
 	cin >> height;
-	cout << "°ÔÀÓ °æÇèÀÌ ÀÖ½À´Ï±î? (1: ¿¹, 0: ¾Æ´Ï¿À): ";
+	cout << "ê²Œìž„ ê²½í—˜ì´ ìžˆìŠµë‹ˆê¹Œ? (1: ì˜ˆ, 0: ì•„ë‹ˆì˜¤): ";
 	cin >> isGamingExperience;
 
-	cout << "ÀÌ¸§: " << name << endl;
-	cout << "³ªÀÌ: " << age << endl;
-	cout << "Å°: " << height << endl;
-	cout << "°ÔÀÓ °æÇè: " << (isGamingExperience ? "ÀÖÀ½" : "¾øÀ½") << endl;
+	cout << "ì´ë¦„: " << name << endl;
+	cout << "ë‚˜ì´: " << age << endl;
+	cout << "í‚¤: " << height << endl;
+	cout << "ê²Œìž„ ê²½í—˜: " << (isGamingExperience ? "ìžˆìŒ" : "ì—†ìŒ") << endl;
 
 
 	return 0;

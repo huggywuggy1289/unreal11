@@ -24,6 +24,7 @@
     <ClCompile Include="test1.cpp" />
     <ClCompile Include="week1_work0.cpp" />
     <ClCompile Include="week1_work1.cpp" />
+    <ClCompile Include="week1_work2.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
