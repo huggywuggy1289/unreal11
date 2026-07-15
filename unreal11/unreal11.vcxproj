@@ -36,6 +36,7 @@
     <ClCompile Include="week2_work5.cpp" />
     <ClCompile Include="week2_work6-1.cpp" />
     <ClCompile Include="week2_work6.cpp" />
+    <ClCompile Include="week3_class0.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
