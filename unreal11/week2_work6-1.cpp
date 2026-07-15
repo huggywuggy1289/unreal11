@@ -5,7 +5,7 @@ using namespace std;
 int factorial(int n) {
 
 	// 스택오버플로우 방지
-	if (n <= 1) { // 1이면 재귀안함
+	if (n <= 1) { // 1이하면 재귀안함
 		return 1;
 	}
 	return n * factorial(n - 1);
