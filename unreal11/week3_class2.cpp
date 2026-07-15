@@ -8,6 +8,5 @@ int main() {
 	cout << "스택에 저장되어있는 ptr의 주솟값 : " << &ptr << endl;
 	cout << "그 주소에 가서 객체에 들어간 값을 꺼냄 : " << *ptr << endl;
 
-	delete ptr;
-	return 0;
+	delete ptr; // 힙에 있던 그 객체(10이 들어있던 메모리 공간) 자체가 통째로 반납/제거
 }
