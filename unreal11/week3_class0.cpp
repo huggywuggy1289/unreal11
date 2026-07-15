@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 // 이 프레임 안의 num은 main 프레임의 number와 완전히 다른 메모리 주소에 쌓인다
