@@ -2,28 +2,36 @@
 using namespace std;
 
 enum RSP {
-	RSP_ROCK,
-	RSP_SCISSOR,
-	RSP_PAPER,
-	RSP_END
+	RSP_ROCK, // 0
+	RSP_SCISSOR, // 1
+	RSP_PAPER, // 2
+	RSP_END // 3
 };
 
 int main() {
 	srand(time(0));
-
 	int player;
-	cout << "0: 바위, 1: 가위, 2: 보 중 선택: ";
-	cin >> player;
 
-	int computer = rand() % RSP_END;
+	while (true) {
 
-	cout << "컴퓨터: " << computer << endl;
+		cout << "0: 바위, 1: 가위, 2: 보 중 선택: ";
+		cin >> player;
 
-	// 예외처리
-	if (player != 0 || 1 || 2) {
-		cout << "적절한 정수가 아닙니다." << endl;
-		return 1;
+		if (cin.fail()) {
+			cin.clear(); // 입력값 지우기
+			cin.ignore(10000, '\n'); // 입력버퍼가 지워짐
+			cout << "숫자를 입력해주세요." << endl;
+			continue;
+		}
+
+		if (player < RSP_ROCK || player >= RSP_END) {
+			cout << "0, 1, 2 중 하나만 입력해주세요." << endl;
+			continue;
+		}
+		break;
 	}
+	int computer = rand() % RSP_END;
+	cout << "컴퓨터: " << computer << endl;
 
 	if (player == computer) {
 		cout << "비겼다!" << endl;
@@ -35,7 +43,7 @@ int main() {
 		(player == RSP_ROCK && computer == RSP_SCISSOR) ||
 		(player == RSP_SCISSOR && computer == RSP_PAPER) ||
 		(player == RSP_PAPER && computer == RSP_ROCK)
-		) 
+		)
 	{
 		cout << "이겼다!" << endl;
 	}
