@@ -3,6 +3,7 @@
 using namespace std;
 
 // 이 프레임 안의 num은 main 프레임의 number와 완전히 다른 메모리 주소에 쌓인다
+/*
 void increment(int num) {
 	num = num + 1;
 	cout << "함수 내 값 : " << num << endl;
@@ -18,6 +19,7 @@ int main() {
 	cout << "주소값 : " << & number << endl;
 	return 0;
 }
+*/
 
 // 스택은 이름이 아니라 "누가 호출했는지"에 따라 프레임을 쌓는 구조이다.
 
