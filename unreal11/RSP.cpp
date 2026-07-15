@@ -17,19 +17,22 @@ int main() {
 		cout << "0: 바위, 1: 가위, 2: 보 중 선택: ";
 		cin >> player;
 
+		// 조건1
 		if (cin.fail()) {
 			cin.clear(); // 입력값 지우기
-			cin.ignore(10000, '\n'); // 입력버퍼가 지워짐
-			cout << "숫자를 입력해주세요." << endl;
+			cin.ignore(10000, '\n'); // 둘중 먼저 실행되는 조건에서 입력버퍼가 지워짐. 예로 사용자가 23223입력하고 1만 설정했으면 1글자만 지워지므로 최대한 많은 문자열을 비우도록 임의로 설정한 값이다.
+			cout << "문자열이나 특수기호는 사용하실 수 없습니다." << endl;
 			continue;
 		}
 
+		// 조건2
 		if (player < RSP_ROCK || player >= RSP_END) {
 			cout << "0, 1, 2 중 하나만 입력해주세요." << endl;
 			continue;
 		}
-		break;
+		break; // 반복문 탈출
 	}
+	// rand() 함수가 반환하는 값은 0~32767 사이의 값
 	int computer = rand() % RSP_END;
 	cout << "컴퓨터: " << computer << endl;
 
