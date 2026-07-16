@@ -1,12 +1,13 @@
 #include <iostream>
 #include <stdio.h>
+using namespace std;
 
 // A[p ~ q] / A[q+1 ~ r]
 void merge(int A[], int p, int q, int r) {
 
 	// 왼, 오 요소개수(배열 사이즈)
 	int left = q - p + 1;
-	int right = r - (q + 1) - 1;
+	int right = r - q;
 
 	// 요소에 맞게 임시배열사이즈 지정
 	int* L = new int[left];
@@ -17,7 +18,7 @@ void merge(int A[], int p, int q, int r) {
 	for (int j = q + 1; j < right; j++) R[j] = A[(q + 1) + j];
 
 	// 각각 L,R,A배열의 현재 위치(각각의 배열에서는 첫번째 원소 인덱스가 전부 0이올시다)
-	int i = 0, j = 0, k = 0;
+	int i = 0, j = 0, k = p;
 
 	// 두 배열이 다 정렬된 상태이니 이걸 다시 A에 넣어야함.
 	while (i < left && j < right) { // 각자 인덱스가 서로의 배열을 침범하지않는 상태에서
@@ -25,7 +26,7 @@ void merge(int A[], int p, int q, int r) {
 			A[k++] = L[i++]; // A배열에 더 작은 왼쪽 원소넣어주기
 		}
 		else {
-			A[k++] = R[i++];
+			A[k++] = R[j++];
 		}
 
 	}
@@ -42,11 +43,33 @@ void merge(int A[], int p, int q, int r) {
 	delete[] R;
 }
 
-void mergesolution(int A[], int p, int r) {
+void mergeSort(int A[], int p, int r) { // 배열, 첫번째 원소, 마지막 원소
 
 
+	if (p >= r) {
+		return;
+	}
 
+	int q = (p + r) / 2;
+
+	mergeSort(A ,p, q);
+	mergeSort(A, q+1, r);
+	merge(A, p, q, r);
 }
+
 int main() {
 
+	int A[] = { 43,2,65,3,1,5,7,3,8,2,6,3,87 };
+	int n = sizeof(A) / sizeof(A[0]);
+
+	for (int i = 0; i < n; i++) {
+
+		mergeSort(A, 0, n-1);
+		cout << "오름차순 나열결과 : " << A[i] << endl; // 이렇게 하면 배열의 주소만 찍힌다
+		cout << "첫번째 원소 : " << A[0] << endl;
+		cout << "마지막 원소 : " << A[n - 1] << endl;
+
+	}
+	
+	return 0;
 }
