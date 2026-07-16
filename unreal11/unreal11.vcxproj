@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="0716-1.cpp" />
+    <ClCompile Include="0716.cpp" />
     <ClCompile Include="RSP.cpp" />
     <ClCompile Include="week3_class2.cpp" />
     <ClCompile Include="realTest.cpp" />
