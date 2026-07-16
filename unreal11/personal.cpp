@@ -42,7 +42,8 @@ void merge(int A[], int p, int q, int r) {
 	delete[] R;
 }
 
-void mergesolution() {
+void mergesolution(int A[], int p, int r) {
+
 
 
 }
