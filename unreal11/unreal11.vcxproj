@@ -23,6 +23,7 @@
     <ClCompile Include="0716-0.cpp" />
     <ClCompile Include="0720-0.cpp" />
     <ClCompile Include="0720-1.cpp" />
+    <ClCompile Include="conditional.cpp" />
     <ClCompile Include="hashtable.cpp" />
     <ClCompile Include="increase.cpp" />
     <ClCompile Include="mergesort.cpp" />

@@ -108,5 +108,8 @@
     <ClCompile Include="test132.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
+    <ClCompile Include="conditional.cpp">
+      <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
