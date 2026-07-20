@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\REAL_CLASS">
       <UniqueIdentifier>{4a38ea61-f929-48c1-b46b-985892eb4474}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\WORK0720">
+      <UniqueIdentifier>{e010efbe-4e81-4545-8277-038db869720a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -108,14 +111,23 @@
     <ClCompile Include="test132.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
-    <ClCompile Include="conditional.cpp">
+    <ClCompile Include="condition.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
     <ClCompile Include="recycle.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
-    <ClCompile Include="coinmachine.cpp">
+    <ClCompile Include="greedy.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
+    <ClCompile Include="problem1.cpp">
+      <Filter>소스 파일\WORK0720</Filter>
+    </ClCompile>
+    <ClCompile Include="typeChange.cpp">
+      <Filter>소스 파일\WORK0720</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
