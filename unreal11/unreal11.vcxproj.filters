@@ -87,7 +87,10 @@
     <ClCompile Include="0716-1.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
-    <ClCompile Include="personal.cpp">
+    <ClCompile Include="mergesort.cpp">
+      <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
+    <ClCompile Include="hashtable.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
   </ItemGroup>
