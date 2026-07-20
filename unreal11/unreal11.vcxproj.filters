@@ -102,5 +102,8 @@
     <ClCompile Include="operator.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
+    <ClCompile Include="increase.cpp">
+      <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
