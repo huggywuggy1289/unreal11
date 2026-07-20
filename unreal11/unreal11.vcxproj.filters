@@ -111,5 +111,11 @@
     <ClCompile Include="conditional.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
+    <ClCompile Include="recycle.cpp">
+      <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
+    <ClCompile Include="coinmachine.cpp">
+      <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
