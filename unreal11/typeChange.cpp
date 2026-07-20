@@ -5,26 +5,20 @@ using namespace std;
 
 int main() {
 
-	// 이전 경험치
-	int befLv;
-	cin >> befLv;
-
-	// 얻은 경험치
-	int getLv;
-	cin >> getLv;
-
-	int meNow = befLv + getLv;
-
-	cout << "현재 경험치 : " << meNow << endl;
-	bool isLevelUp = false;
-
-	if (meNow >= 1000) {
-		isLevelUp = true;
-		cout << "레벨업 여부 : " << isLevelUp << endl;
+	int num;
+	cin >> num;
+	if (cin.fail() || num < 0) {
+		cout << "잘못된 타입입니다." << endl;
+		return 0;
 	}
-	else {
-		cout << "레벨업 여부 : " << isLevelUp << endl;
-	}
+
+	int timeShare = num / 3600;
+	int timeReminder = num % 3600;
+
+	int hour = timeShare;
+	int minute = timeReminder / 60;
+	int second = timeReminder % 60;
+	cout << hour << "시간 " << minute << "분 " << second << "초" << endl;
 
 	return 0;
 }
