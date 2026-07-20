@@ -5,23 +5,26 @@ using namespace std;
 
 int main() {
 
-	int num;
-	//int hour;
-	//int minute;
-	//int second;
-	cin >> num;
-	if (cin.fail()) {
-		cout << "잘못된 타입입니다." << endl;
-		return 0;
+	// 이전 경험치
+	int befLv;
+	cin >> befLv;
+
+	// 얻은 경험치
+	int getLv;
+	cin >> getLv;
+
+	int meNow = befLv + getLv;
+
+	cout << "현재 경험치 : " << meNow << endl;
+	bool isLevelUp = false;
+
+	if (meNow >= 1000) {
+		isLevelUp = true;
+		cout << "레벨업 여부 : " << isLevelUp << endl;
 	}
-
-	// 1시간 = 60분 = 3600초 3665 / 3600 = 1 3665 % 3600 = 65
-
-	int hour = num / 3600; // 65초가 나머지
-	int minute = (num % 3600) / 60; // 5가 나머지
-	int second = (num % 3600) % 60; // 분단위에서 60을 나눈 나머지
-
-	cout << hour << "시간 " << minute << "분 " << second << "초" << endl;
+	else {
+		cout << "레벨업 여부 : " << isLevelUp << endl;
+	}
 
 	return 0;
 }
