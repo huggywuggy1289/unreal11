@@ -81,7 +81,7 @@
     <ClCompile Include="week3_class1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="0716.cpp">
+    <ClCompile Include="0716-0.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
     <ClCompile Include="0716-1.cpp">
@@ -91,6 +91,15 @@
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
     <ClCompile Include="hashtable.cpp">
+      <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
+    <ClCompile Include="0720-0.cpp">
+      <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
+    <ClCompile Include="0720-1.cpp">
+      <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
+    <ClCompile Include="operator.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
   </ItemGroup>

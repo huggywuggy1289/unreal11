@@ -20,9 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0716-1.cpp" />
-    <ClCompile Include="0716.cpp" />
+    <ClCompile Include="0716-0.cpp" />
+    <ClCompile Include="0720-0.cpp" />
+    <ClCompile Include="0720-1.cpp" />
     <ClCompile Include="hashtable.cpp" />
     <ClCompile Include="mergesort.cpp" />
+    <ClCompile Include="operator.cpp" />
     <ClCompile Include="RSP.cpp" />
     <ClCompile Include="week3_class2.cpp" />
     <ClCompile Include="realTest.cpp" />
