@@ -28,6 +28,7 @@
     <ClCompile Include="mergesort.cpp" />
     <ClCompile Include="operator.cpp" />
     <ClCompile Include="RSP.cpp" />
+    <ClCompile Include="test132.cpp" />
     <ClCompile Include="week3_class2.cpp" />
     <ClCompile Include="realTest.cpp" />
     <ClCompile Include="test.cpp" />
