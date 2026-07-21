@@ -9,8 +9,7 @@ void addHundred(int scoreNum) {
 }
 
 void reset(int &lifeNum) { // 2. life의 주소지를 받아와
-	int num = 0; // 3. 주소지내 값을 0으로 전환시켜서
-	lifeNum = num; // lifeNum에 재할당
+	lifeNum = 0;
 }
 
 void doubleValue(int* p) { // 2. p는 money의 주소지를 가리키고
@@ -38,6 +37,7 @@ int main() {
 	int money = 30;
 	doubleValue(&money); // 1. 니가 money변수의 주소값을 전달하면
 	cout << "money 변수의 실제 값 : " << money << endl;
+	// doubleValue(money);는 주소값을 받기로 약속되어있으므로 런타임이전에 컴파일에러남.
 
 
 	return 0;
