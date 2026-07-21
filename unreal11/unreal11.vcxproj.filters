@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\WORK0720">
       <UniqueIdentifier>{e010efbe-4e81-4545-8277-038db869720a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\0721">
+      <UniqueIdentifier>{de8f02dd-c7c7-4ea1-b47e-c1f43c7d1819}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -99,16 +102,13 @@
     <ClCompile Include="0720-0.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
-    <ClCompile Include="0720-1.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
     <ClCompile Include="operator.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
     <ClCompile Include="increase.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
-    <ClCompile Include="test132.cpp">
+    <ClCompile Include="money.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
     <ClCompile Include="condition.cpp">
@@ -128,6 +128,9 @@
     </ClCompile>
     <ClCompile Include="typeChange.cpp">
       <Filter>소스 파일\WORK0720</Filter>
+    </ClCompile>
+    <ClCompile Include="happytest.cpp">
+      <Filter>소스 파일\REAL_CLASS\0721</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

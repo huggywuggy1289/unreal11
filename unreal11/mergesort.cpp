@@ -1,8 +1,11 @@
+#define RUN_THIS 0
+#if RUN_THIS
+
 #include <iostream>
 #include <stdio.h>
 using namespace std;
 
-/*
+
 // A[p ~ q] / A[q+1 ~ r]
 void merge(int A[], int p, int q, int r) {
 
@@ -79,7 +82,7 @@ int main() {
 	
 	return 0;
 }
- */
+#endif
 
 // 1차 버그 : for (int j = q+1; j < right; j++) R[j] = A[(q + 1) + j]; << j가 올바르지않아 쓰레기값 참조
 /*

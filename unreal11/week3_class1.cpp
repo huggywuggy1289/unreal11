@@ -1,7 +1,9 @@
+#define RUN_THIS 0 // 안 쓸 거니까 0
+#if RUN_THIS
+
 #include <iostream>
 using namespace std;
 
-/*
 void function(string name) {
 	cout << "my name is " << name << endl;
 }
@@ -36,4 +38,4 @@ int main() {
 	function(name);
 	return 0;
 }
-*/
+#endif
