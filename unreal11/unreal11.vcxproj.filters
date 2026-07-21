@@ -129,7 +129,19 @@
     <ClCompile Include="typeChange.cpp">
       <Filter>소스 파일\WORK0720</Filter>
     </ClCompile>
-    <ClCompile Include="happytest.cpp">
+    <ClCompile Include="vector.cpp">
+      <Filter>소스 파일\REAL_CLASS\0721</Filter>
+    </ClCompile>
+    <ClCompile Include="function_return_and_cout.cpp">
+      <Filter>소스 파일\REAL_CLASS\0721</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion.cpp">
+      <Filter>소스 파일\REAL_CLASS\0721</Filter>
+    </ClCompile>
+    <ClCompile Include="callBy.cpp">
+      <Filter>소스 파일\REAL_CLASS\0721</Filter>
+    </ClCompile>
+    <ClCompile Include="callBytest.cpp">
       <Filter>소스 파일\REAL_CLASS\0721</Filter>
     </ClCompile>
   </ItemGroup>

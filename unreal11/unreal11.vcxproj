@@ -23,9 +23,13 @@
     <ClCompile Include="0716-0.cpp" />
     <ClCompile Include="0720-0.cpp" />
     <ClCompile Include="1.cpp" />
+    <ClCompile Include="callBytest.cpp" />
     <ClCompile Include="greedy.cpp" />
     <ClCompile Include="condition.cpp" />
-    <ClCompile Include="happytest.cpp" />
+    <ClCompile Include="function_return_and_cout.cpp" />
+    <ClCompile Include="callBy.cpp" />
+    <ClCompile Include="recursion.cpp" />
+    <ClCompile Include="vector.cpp" />
     <ClCompile Include="hashtable.cpp" />
     <ClCompile Include="increase.cpp" />
     <ClCompile Include="mergesort.cpp" />
