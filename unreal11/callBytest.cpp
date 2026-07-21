@@ -1,3 +1,6 @@
+#define RUN_THIS 0
+#if RUN_THIS
+
 #include <iostream>
 #include <string>
 
@@ -42,6 +45,7 @@ int main() {
 
 	return 0;
 }
+#endif
 
 /*
 복사된 값 : 150

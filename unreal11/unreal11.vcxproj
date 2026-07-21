@@ -28,6 +28,7 @@
     <ClCompile Include="condition.cpp" />
     <ClCompile Include="function_return_and_cout.cpp" />
     <ClCompile Include="callBy.cpp" />
+    <ClCompile Include="pointer.cpp" />
     <ClCompile Include="recursion.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="hashtable.cpp" />
