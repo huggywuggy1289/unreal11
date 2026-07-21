@@ -150,5 +150,8 @@
     <ClCompile Include="pointer2.cpp">
       <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
+    <ClCompile Include="bosslaid.cpp">
+      <Filter>소스 파일\REAL_CLASS\0721</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
