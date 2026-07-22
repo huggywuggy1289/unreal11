@@ -32,6 +32,7 @@
     <ClCompile Include="pointer.cpp" />
     <ClCompile Include="pointer2.cpp" />
     <ClCompile Include="recursion.cpp" />
+    <ClCompile Include="rpg.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="hashtable.cpp" />
     <ClCompile Include="increase.cpp" />
@@ -62,6 +63,7 @@
     <ClCompile Include="week2_work6.cpp" />
     <ClCompile Include="week3_class0.cpp" />
     <ClCompile Include="week3_class1.cpp" />
+    <ClCompile Include="rand.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

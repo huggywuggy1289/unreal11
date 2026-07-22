@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\REAL_CLASS\0721">
       <UniqueIdentifier>{de8f02dd-c7c7-4ea1-b47e-c1f43c7d1819}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\0722">
+      <UniqueIdentifier>{9ce23a31-063c-4fbb-bc9f-77a3d407d591}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -152,6 +155,12 @@
     </ClCompile>
     <ClCompile Include="bosslaid.cpp">
       <Filter>소스 파일\REAL_CLASS\0721</Filter>
+    </ClCompile>
+    <ClCompile Include="rand.cpp">
+      <Filter>소스 파일\REAL_CLASS\0722</Filter>
+    </ClCompile>
+    <ClCompile Include="rpg.cpp">
+      <Filter>소스 파일\REAL_CLASS\0722</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
