@@ -32,6 +32,7 @@
     <ClCompile Include="pointer.cpp" />
     <ClCompile Include="pointer2.cpp" />
     <ClCompile Include="recursion.cpp" />
+    <ClCompile Include="rixrpg.cpp" />
     <ClCompile Include="rpg.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="hashtable.cpp" />

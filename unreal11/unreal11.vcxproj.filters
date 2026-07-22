@@ -162,5 +162,8 @@
     <ClCompile Include="rpg.cpp">
       <Filter>소스 파일\REAL_CLASS\0722</Filter>
     </ClCompile>
+    <ClCompile Include="rixrpg.cpp">
+      <Filter>소스 파일\REAL_CLASS\0722</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
