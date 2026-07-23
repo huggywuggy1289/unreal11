@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\REAL_CLASS\0722">
       <UniqueIdentifier>{9ce23a31-063c-4fbb-bc9f-77a3d407d591}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\0723">
+      <UniqueIdentifier>{87798861-5fc7-49a1-9c06-984b19f8b4fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -163,6 +166,12 @@
       <Filter>소스 파일\REAL_CLASS\0722</Filter>
     </ClCompile>
     <ClCompile Include="rixrpg.cpp">
+      <Filter>소스 파일\REAL_CLASS\0722</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>소스 파일\REAL_CLASS\0723</Filter>
+    </ClCompile>
+    <ClCompile Include="testarray.cpp">
       <Filter>소스 파일\REAL_CLASS\0722</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,3 +1,6 @@
+#define RUN_THIS 0
+#if RUN_THIS
+
 #include <iostream>
 #include <memory>
 #include <cstdlib> // rand()
@@ -184,3 +187,4 @@ int main()
 	return 0;
 }
 
+#endif

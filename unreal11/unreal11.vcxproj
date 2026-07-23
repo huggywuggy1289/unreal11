@@ -23,6 +23,7 @@
     <ClCompile Include="0716-0.cpp" />
     <ClCompile Include="0720-0.cpp" />
     <ClCompile Include="1.cpp" />
+    <ClCompile Include="array.cpp" />
     <ClCompile Include="bosslaid.cpp" />
     <ClCompile Include="callBytest.cpp" />
     <ClCompile Include="greedy.cpp" />
@@ -34,6 +35,7 @@
     <ClCompile Include="recursion.cpp" />
     <ClCompile Include="rixrpg.cpp" />
     <ClCompile Include="rpg.cpp" />
+    <ClCompile Include="testarray.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="hashtable.cpp" />
     <ClCompile Include="increase.cpp" />
