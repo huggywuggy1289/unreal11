@@ -172,7 +172,10 @@
       <Filter>소스 파일\REAL_CLASS\0723</Filter>
     </ClCompile>
     <ClCompile Include="testarray.cpp">
-      <Filter>소스 파일\REAL_CLASS\0722</Filter>
+      <Filter>소스 파일\REAL_CLASS\0723</Filter>
+    </ClCompile>
+    <ClCompile Include="baseball.cpp">
+      <Filter>소스 파일\REAL_CLASS\0723</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

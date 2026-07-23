@@ -1,3 +1,6 @@
+#define RUN_THIS 0
+#if RUN_THIS
+
 #include <iostream>
 
 using namespace std;
@@ -58,7 +61,12 @@ int main() {
 	cout << ptr[1] << " " << ptr[2] << endl; // 적절한 값 출력됨
 	// 버퍼의 읽기 가능한 범위는 버퍼에서 읽는 데 사용되는 인덱스보다 작을 수 있다.
 
+	delete[] ptr;
+	ptr = nullptr;
+
 }
+#endif
+
 /*
 배열의 총 길이 : 5
 34 56 90 arr[0]에 들어 있는 값 : 12
