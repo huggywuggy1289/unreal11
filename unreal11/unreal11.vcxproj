@@ -36,6 +36,7 @@
     <ClCompile Include="recursion.cpp" />
     <ClCompile Include="rixrpg.cpp" />
     <ClCompile Include="rpg.cpp" />
+    <ClCompile Include="star.cpp" />
     <ClCompile Include="testarray.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="hashtable.cpp" />

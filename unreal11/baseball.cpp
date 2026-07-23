@@ -1,3 +1,6 @@
+#define RUN_THIS 0
+#if RUN_THIS
+
 #include <iostream>
 #include <algorithm>
 
@@ -9,7 +12,7 @@ int main()
 	int answer[] = { 3,7,1 };
 	int size = sizeof(answer) / sizeof(answer[0]);
 
-	// 입력받을 숫자를 담을 배열
+	// 입력받을 숫자를 담을 배열L
 	int* ptr = new int[size];
 
 	cout << "숫자를 입력하세요 : " << endl;
@@ -59,3 +62,10 @@ int main()
 	return 0;
 
 }
+#endif
+/*
+int x = 3;
+std::vector values = {1, 2, 3};
+if (std::any_of(values.begin(), values.end(), [x](int y) { return x == y; }))
+// ...
+*/
