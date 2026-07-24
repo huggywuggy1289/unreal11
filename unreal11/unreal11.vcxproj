@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -26,18 +26,24 @@
     <ClCompile Include="array.cpp" />
     <ClCompile Include="baseball.cpp" />
     <ClCompile Include="bosslaid.cpp" />
+    <ClCompile Include="c.cpp" />
     <ClCompile Include="callBytest.cpp" />
+    <ClCompile Include="Monster.cpp" />
     <ClCompile Include="greedy.cpp" />
     <ClCompile Include="condition.cpp" />
     <ClCompile Include="function_return_and_cout.cpp" />
     <ClCompile Include="callBy.cpp" />
+    <ClCompile Include="makebaseball.cpp" />
     <ClCompile Include="pointer.cpp" />
     <ClCompile Include="pointer2.cpp" />
     <ClCompile Include="recursion.cpp" />
     <ClCompile Include="rixrpg.cpp" />
     <ClCompile Include="rpg.cpp" />
-    <ClCompile Include="star.cpp" />
+    <ClCompile Include="pyramidStar.cpp" />
+    <ClCompile Include="reversepyramidStar.cpp" />
+    <ClCompile Include="string.cpp" />
     <ClCompile Include="testarray.cpp" />
+    <ClCompile Include="testString.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="hashtable.cpp" />
     <ClCompile Include="increase.cpp" />
@@ -69,6 +75,9 @@
     <ClCompile Include="week3_class0.cpp" />
     <ClCompile Include="week3_class1.cpp" />
     <ClCompile Include="rand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Monster.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\REAL_CLASS\0723">
       <UniqueIdentifier>{87798861-5fc7-49a1-9c06-984b19f8b4fa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\0724">
+      <UniqueIdentifier>{bb59c0df-a53c-4e47-ac66-6eeb5a60b94f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -177,8 +180,31 @@
     <ClCompile Include="baseball.cpp">
       <Filter>소스 파일\REAL_CLASS\0723</Filter>
     </ClCompile>
-    <ClCompile Include="star.cpp">
+    <ClCompile Include="c.cpp">
+      <Filter>소스 파일\REAL_CLASS</Filter>
+    </ClCompile>
+    <ClCompile Include="pyramidStar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="reversepyramidStar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\REAL_CLASS\0724</Filter>
+    </ClCompile>
+    <ClCompile Include="makebaseball.cpp">
       <Filter>소스 파일\REAL_CLASS\0723</Filter>
     </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>소스 파일\REAL_CLASS\0724</Filter>
+    </ClCompile>
+    <ClCompile Include="testString.cpp">
+      <Filter>소스 파일\REAL_CLASS\0724</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\REAL_CLASS\0724</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
