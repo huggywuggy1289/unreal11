@@ -28,6 +28,9 @@
     <ClCompile Include="bosslaid.cpp" />
     <ClCompile Include="c.cpp" />
     <ClCompile Include="callBytest.cpp" />
+    <ClCompile Include="HandleDungeon.cpp" />
+    <ClCompile Include="HandleStatAlloc.cpp" />
+    <ClCompile Include="HandleTown.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="greedy.cpp" />
@@ -46,6 +49,7 @@
     <ClCompile Include="string.cpp" />
     <ClCompile Include="testarray.cpp" />
     <ClCompile Include="testString.cpp" />
+    <ClCompile Include="utils.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="hashtable.cpp" />
     <ClCompile Include="increase.cpp" />
@@ -79,10 +83,13 @@
     <ClCompile Include="rand.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Dragon.h" />
     <ClInclude Include="GameState.h" />
+    <ClInclude Include="HandleDungeon.h" />
+    <ClInclude Include="HandleStatAlloc.h" />
+    <ClInclude Include="HandleTown.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="Screens.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

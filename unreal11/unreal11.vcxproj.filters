@@ -16,9 +16,6 @@
     <Filter Include="소스 파일\REAL_CLASS">
       <UniqueIdentifier>{4a38ea61-f929-48c1-b46b-985892eb4474}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\WORK0720">
-      <UniqueIdentifier>{e010efbe-4e81-4545-8277-038db869720a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\REAL_CLASS\0721">
       <UniqueIdentifier>{de8f02dd-c7c7-4ea1-b47e-c1f43c7d1819}</UniqueIdentifier>
     </Filter>
@@ -31,112 +28,34 @@
     <Filter Include="소스 파일\REAL_CLASS\0724">
       <UniqueIdentifier>{bb59c0df-a53c-4e47-ac66-6eeb5a60b94f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\최종평가">
+      <UniqueIdentifier>{91ce357e-b8fa-4dc4-9a3a-d8dc8974b13f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\all">
+      <UniqueIdentifier>{a8767955-c86f-4864-b47f-9e8f291f4d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\all\WORK0720">
+      <UniqueIdentifier>{e010efbe-4e81-4545-8277-038db869720a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\최종평가\Struct">
+      <UniqueIdentifier>{cc176b52-9e29-419b-9444-f03945c852f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\최종평가\GameState">
+      <UniqueIdentifier>{a20dc1cf-3e90-4a66-a34a-2adfd7c8c0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\최종평가\Handle">
+      <UniqueIdentifier>{0694614a-5d57-4556-b104-f281840edbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\REAL_CLASS\최종평가\Utils">
+      <UniqueIdentifier>{23a01e00-1328-4111-b9be-bfc5efb6ca94}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="realTest.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week1_work0.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week1_work1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week1_work2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week1_work3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week1_work4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week2_work0.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week2_work1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week2_work2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week2_work3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week2_work4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week2_work5.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week2_work6.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week2_work6-1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week2_work10.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RSP.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week3_class2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week3_class0.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week3_class1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0716-0.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="0716-1.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="mergesort.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="hashtable.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="0720-0.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="operator.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="increase.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="money.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="condition.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="recycle.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="greedy.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="1.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
     <ClCompile Include="problem1.cpp">
-      <Filter>소스 파일\WORK0720</Filter>
+      <Filter>소스 파일\REAL_CLASS\all\WORK0720</Filter>
     </ClCompile>
     <ClCompile Include="typeChange.cpp">
-      <Filter>소스 파일\WORK0720</Filter>
+      <Filter>소스 파일\REAL_CLASS\all\WORK0720</Filter>
     </ClCompile>
     <ClCompile Include="vector.cpp">
       <Filter>소스 파일\REAL_CLASS\0721</Filter>
@@ -155,9 +74,6 @@
     </ClCompile>
     <ClCompile Include="pointer.cpp">
       <Filter>소스 파일\REAL_CLASS\0721</Filter>
-    </ClCompile>
-    <ClCompile Include="pointer2.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
     </ClCompile>
     <ClCompile Include="bosslaid.cpp">
       <Filter>소스 파일\REAL_CLASS\0721</Filter>
@@ -180,15 +96,6 @@
     <ClCompile Include="baseball.cpp">
       <Filter>소스 파일\REAL_CLASS\0723</Filter>
     </ClCompile>
-    <ClCompile Include="c.cpp">
-      <Filter>소스 파일\REAL_CLASS</Filter>
-    </ClCompile>
-    <ClCompile Include="pyramidStar.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="reversepyramidStar.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Monster.cpp">
       <Filter>소스 파일\REAL_CLASS\0724</Filter>
     </ClCompile>
@@ -201,10 +108,160 @@
     <ClCompile Include="testString.cpp">
       <Filter>소스 파일\REAL_CLASS\0724</Filter>
     </ClCompile>
+    <ClCompile Include="week3_class0.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="0716-0.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="0716-1.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="0720-0.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="c.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="condition.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="hashtable.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="increase.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="mergesort.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="money.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="operator.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer2.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="recycle.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="pyramidStar.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="realTest.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="reversepyramidStar.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="RSP.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="test1.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week1_work0.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week1_work1.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week1_work2.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week1_work3.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week1_work4.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_work0.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_work1.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_work2.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_work3.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_work4.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_work5.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_work6.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_work6-1.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_work10.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week3_class1.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="week3_class2.cpp">
+      <Filter>소스 파일\REAL_CLASS\all</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\REAL_CLASS\최종평가</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleTown.cpp">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleDungeon.cpp">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleStatAlloc.cpp">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Handle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Monster.h">
       <Filter>소스 파일\REAL_CLASS\0724</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleDungeon.h">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleTown.h">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>소스 파일\REAL_CLASS\최종평가\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleStatAlloc.h">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>소스 파일\REAL_CLASS\최종평가\Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

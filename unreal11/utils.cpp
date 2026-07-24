@@ -1,7 +1,7 @@
 #include "Utils.h"
 #include <iostream>
 
-int GetVaildChioce(int minVal, int maxVal) {
+int GetValidChioce(int minVal, int maxVal) {
 
 	int choice;
 

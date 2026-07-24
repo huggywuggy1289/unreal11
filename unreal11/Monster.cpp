@@ -26,7 +26,7 @@ void Monster::SetHp(int point) {
 	hp += point;
 }
 
-
+/*
 int main() 
 {
 	Monster* monster = new Monster(); // 구조체 동적할당
@@ -43,3 +43,4 @@ int main()
 	delete monster;
 	return 0;
 }
+*/
