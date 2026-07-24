@@ -1,7 +1,7 @@
 #include "Utils.h"
 #include <iostream>
 
-int GetValidChioce(int minVal, int maxVal) {
+int GetValidChoice(int minVal, int maxVal) {
 
 	int choice;
 
