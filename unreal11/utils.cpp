@@ -14,8 +14,8 @@ int GetValidChoice(int minVal, int maxVal) {
 			cout << "잘못된 입력입니다." << endl;
 			continue;
 		}
+		return choice;
 	}
-	return choice;
 }
 
 void PrintPlayerStatus(Player* player) {

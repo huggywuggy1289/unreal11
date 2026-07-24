@@ -24,7 +24,7 @@ GameState HandleTown(Player* player) {
 	switch (choice)
 	{
 	case 1:
-		cout << "\n마을은 평화롭다\n 그런데 어딘가 불안하다....";
+		cout << "\n마을은 평화롭다\n 그런데 어딘가 불안하다....\n";
 		return GameState::TOWN;
 	case 2:
 		cout << "\n주민이 말을 건넨다: \"조심해서 다녀오게나.\"\n";
