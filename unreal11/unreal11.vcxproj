@@ -28,12 +28,14 @@
     <ClCompile Include="bosslaid.cpp" />
     <ClCompile Include="c.cpp" />
     <ClCompile Include="callBytest.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="greedy.cpp" />
     <ClCompile Include="condition.cpp" />
     <ClCompile Include="function_return_and_cout.cpp" />
     <ClCompile Include="callBy.cpp" />
     <ClCompile Include="makebaseball.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="pointer.cpp" />
     <ClCompile Include="pointer2.cpp" />
     <ClCompile Include="recursion.cpp" />
@@ -77,7 +79,11 @@
     <ClCompile Include="rand.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="Monster.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Screens.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

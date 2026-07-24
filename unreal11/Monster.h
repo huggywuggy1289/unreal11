@@ -11,6 +11,7 @@ private:
 	string name = "";
 
 public:
+	// ¼±¾ð¸¸
 	string GetName();
 	void SetName(string str);
 
